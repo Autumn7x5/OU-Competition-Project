@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class OUone {
+	private static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		System.out.println("You have just arrived at the Oklahoma University in Norman Oklahoma!");
+		System.out.println(" Welcome and please be excited to exsplore!");
+
+		int fredJonesMuseum = 1;
+		int phsyicalScienceCenter = 2;
+		int collegeArtScience = 3;
+		int memorialLibrary = 4;
+		int visitorsCenter = 5;
+		int collegeFineArts = 6;
+		int unionFoodCourt = 7;
+		int engineeringQuad = 8;
+		int sarkeysEnergyCenter = 9;
+		int ouMemorialStadium = 10;
+
+		int input;
+		// ENTER THE STORY ASKING WHERE THEY WANNA GO
+		input = scanner.nextInt();
+
+		if (input == fredJonesMuseum) 
+		{
+			// NUMBER OF PLACE)
+		}
+
+	}
+}
