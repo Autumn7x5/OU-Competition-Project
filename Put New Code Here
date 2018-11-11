@@ -1,0 +1,9 @@
+
+public class OUone 
+{
+	public static void main(String [] args)
+	{
+		System.out.println("You have just arrived at the Oklahoma University in Norman Oklahoma!");
+		System.out.println(" Welcome and please be excited to exsplore!");
+	}
+}
