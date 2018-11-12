@@ -1,30 +1,69 @@
 import java.util.Scanner;
 
-public class OUone {
-	private static Scanner scanner = new Scanner(System.in);
 
-	public static void main(String[] args) {
+import java.util.Scanner;
+
+//THIS IS COMMENTED OUT BUT WILL BE DETERMINED ON HOW TO IMPORT BY M SMITH
+
+//package ev3.exercises;
+//
+//import lejos.hardware.Button;
+//import lejos.hardware.Sound;
+//import lejos.hardware.motor.*;
+//import lejos.hardware.port.*;
+//import lejos.utility.Delay;
+public class OUone 
+{
+	public static Scanner scanner = new Scanner(System.in);
+	final static int FRED_JONES_MUSEUM = 1;
+	final static int PHYSICAL_SCIENCE_CENTER = 2;
+	final static int COLLEGE_ART_SCIENCE  = 3;
+	final static int MEMORIAL_LIBRARY = 4;
+	final static int VISITORS_CENTER = 5;
+	final static int COLLEGE_FINE_ARTS= 6;
+	final static int UNIONFOODCOURT= 7;
+	final static int ENGINEERING_QUAD = 8;
+	final static int SARKEYS_ENERGY_CENTER= 9;
+	final static int MEMORIAL_STADIUM= 10;
+	
+	public static void main(String[] args) 
+	{
 		System.out.println("You have just arrived at the Oklahoma University in Norman Oklahoma!");
 		System.out.println(" Welcome and please be excited to exsplore!");
 
-		int fredJonesMuseum = 1;
-		int phsyicalScienceCenter = 2;
-		int collegeArtScience = 3;
-		int memorialLibrary = 4;
-		int visitorsCenter = 5;
-		int collegeFineArts = 6;
-		int unionFoodCourt = 7;
-		int engineeringQuad = 8;
-		int sarkeysEnergyCenter = 9;
-		int ouMemorialStadium = 10;
+
 
 		int input;
 		// ENTER THE STORY ASKING WHERE THEY WANNA GO
 		input = scanner.nextInt();
 
+		//TURNING RIGH ONTO ELM AVE
+		 motorA.backward();//TO TURN RIGHT 
+         motorB.forward();
+
+		   motorA.setPower(50);
+           motorB.setPower(50);
+
+           // wait 2 seconds.
+           Delay.msDelay(2000); //FORWARD
+
+		//FACING SOUTH
+		
+		
 		if (input == fredJonesMuseum) 
 		{
-			// NUMBER OF PLACE)
+			//ALL INFO OF MUSEUM//
+			
+			   // set motors to 50% power.
+            motorA.setPower(50);
+            motorB.setPower(50);
+
+            // wait 2 seconds.
+            Delay.msDelay(2000);
+
+            // stop motors with brakes on. 
+            motorA.stop();
+            motorB.stop();
 		}
 
 	}
