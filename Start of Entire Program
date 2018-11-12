@@ -21,11 +21,25 @@ public class OUone
 	final static int MEMORIAL_LIBRARY = 4;
 	final static int VISITORS_CENTER = 5;
 	final static int COLLEGE_FINE_ARTS= 6;
-	final static int UNIONFOODCOURT= 7;
+	final static int UNION_FOOD_COURT= 7;
 	final static int ENGINEERING_QUAD = 8;
 	final static int SARKEYS_ENERGY_CENTER= 9;
 	final static int MEMORIAL_STADIUM= 10;
 	
+			System.out.println("You have just arrived at the Oklahoma University in Norman Oklahoma!");
+		System.out.println(" Welcome and please be excited to exsplore!");
+		System.out.println("Your options to exsplore are...");
+		System.out.println(" 1 - Fred Jones Museum");
+		System.out.println(" 2 - The Physical Science Center");
+		System.out.println(" 3 - College of Art & Science");
+		System.out.println(" 4 - Memorial Library");
+		System.out.println(" 5 - The OU Visitors Center");
+		System.out.println(" 6 - College of Fine Arts");
+		System.out.println(" 7 - The Union Food Court");
+		System.out.println(" 8 - The Engineering Quad");
+		System.out.println(" 9 - Sarkeys Energy Center");
+		System.out.println(" 10 - Memorial Stadium"); 
+		
 	public static void main(String[] args) 
 	{
 		System.out.println("You have just arrived at the Oklahoma University in Norman Oklahoma!");
